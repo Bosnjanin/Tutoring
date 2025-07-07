@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Integral Education</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <style>
     * {
       box-sizing: border-box;
@@ -39,15 +39,41 @@
     h2 {
       color: #005a9c;
       margin-bottom: 1rem;
+      border-bottom: 2px solid #005a9c;
+      padding-bottom: 0.3rem;
     }
-    .contact, .rates {
+    .contact, .rates, .comments, .staff-spotlight {
       background: #e6f0ff;
-      padding: 1rem;
+      padding: 1rem 1.5rem;
       border-radius: 8px;
+      margin-bottom: 2rem;
     }
     ul {
-      margin-left: 1rem;
+      margin-left: 1.5rem;
       list-style: disc;
+      margin-bottom: 1rem;
+    }
+    ul li {
+      margin-bottom: 0.4rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #005a9c;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    th {
+      background-color: #d7e7fc;
+    }
+    .testimonial {
+      margin-bottom: 1.5rem;
+    }
+    .testimonial strong {
+      color: #005a9c;
     }
     .footer {
       text-align: center;
@@ -74,34 +100,80 @@
   <section>
     <h2>Subjects Offered</h2>
     <ul>
-      <li><strong>Mathematics:</strong> General, Methods, Specialist (1/2 & 3/4)</li>
-      <li><strong>English:</strong> English, English Language, Literature (1/2 & 3/4)</li>
-      <li><strong>Sciences:</strong> Physics, Chemistry, Biology (1/2 & 3/4)</li>
-      <li><strong>Humanities:</strong> Global Politics, Legal Studies, History, Economics, Sociology</li>
-      <li><strong>Languages:</strong> Bosnian, Croatian, Serbian (1/2 & 3/4)</li>
+      <li><strong>Mathematics:</strong> General, Methods, Specialist (1/2 &amp; 3/4)</li>
+      <li><strong>English:</strong> English, English Language, Literature (1/2 &amp; 3/4)</li>
+      <li><strong>Sciences:</strong> Physics, Chemistry, Biology (1/2 &amp; 3/4)</li>
+      <li><strong>Humanities:</strong> Global Politics, History </li>
+      <li><strong>Languages:</strong> Bosnian, Croatian, Serbian (1/2 &amp; 3/4)</li>
       <li><strong>Specialised Support:</strong> Public Speaking, Essay Writing, University Prep</li>
       <li><strong>Selective School Entry:</strong> NHS, JMSS (Years 8–10)</li>
     </ul>
   </section>
 
   <section class="rates">
-    <h2>Rates & Packages</h2>
-    <p><strong>Pre-VCE:</strong> $30/hour<br>
+    <h2>Rates &amp; Packages</h2>
+    <p><strong>Pre-VCE:</strong> $30/hour<br />
     <strong>VCE:</strong> $50/hour</p>
-    <p><strong>Family Pack:</strong> $60 total for two subjects (1 VCE and 1 pre-VCE or 2 children from same family)</p>
+    <p><strong>Family Pack:</strong> $60 total for two subjects (1 VCE and 1 pre-VCE or 2 children from the same family)</p>
   </section>
 
   <section>
-    <h2>Availability & Location</h2>
-    <p><strong>When:</strong> Schooldays (5 PM – 9 PM), Weekends (12 PM – 5 PM)<br>
+    <h2>Availability &amp; Location</h2>
+    <p><strong>When:</strong> Schooldays (5 PM – 9 PM), Weekends (12 PM – 5 PM)<br />
     <strong>Where:</strong> Online via Zoom and Melbourne South East</p>
   </section>
 
-  <section class="contact">
-    <h2>Contact & Booking</h2>
-    <p><strong>Phone:</strong> 0450842983<br>
-    <strong>Email:</strong> IntegralEducation@gmail.com</p>
-    <p>To book a session or organise tutoring, get in touch via phone or email.</p>
+  <section class="comments">
+    <h2>Student Comments</h2>
+    <div class="testimonial">
+      <strong>Lenny Leufgens</strong><br />
+      <em>Received tutoring for Specialist Mathematics 3/4, Methods 3/4</em><br />
+      “The tutors at Integral Education don’t just teach — they challenge you to think deeper. My problem-solving skills improved dramatically thanks to their tailored approach.”
+    </div>
+    <div class="testimonial">
+      <strong>Declin Wong</strong><br />
+      <em>Received tutoring for Specialist Mathematics 3/4, Methods 3/4</em><br />
+      “I always felt supported and encouraged. Their patience and clarity made even the hardest topics manageable.”
+    </div>
+    <div class="testimonial">
+      <strong>Igor Kargopoltsev</strong><br />
+      <em>Received tutoring for Specialist Mathematics 3/4, Methods 3/4</em><br />
+      “Knowing Davud personally, I truly value his dedication to the community and education. Finishing VCE, I’m inspired to take what I’ve learned here and contribute to this movement myself.”
+    </div>
+    <div class="testimonial">
+      <strong>Andrew Zadorozhnyi</strong><br />
+      <em>Received tutoring for English 3/4</em><br />
+      “The focused support with English helped me refine my writing and presentation skills. It’s more than tutoring — it’s a community that pushes you to be your best.”
+    </div>
+    <div class="testimonial">
+      <strong>Alicia Zadorozhnya</strong><br />
+      <em>Received tutoring for NHS Selective School Entry</em><br />
+      “The guidance I received prepared me thoroughly for the selective school process. The tutors’ insights and encouragement were invaluable.”
+    </div>
+  </section>
+
+  <section class="staff-spotlight">
+    <h2>Staff Spotlight</h2>
+    <p><strong>Davud Bektas</strong> — Lead Tutor &amp; Academic Achiever</p>
+    <ul>
+      <li>ATAR: 98.55</li>
+      <li>Academic achiever since Grade 7</li>
+      <li>Mathematical Olympian (Gold Honour)</li>
+      <li>Tutoring since 2022</li>
+      <li>Based in Greater Dandenong Area</li>
+      <li>Fluent in English, Serbo-Croatian, and Slovenian</li>
+      <li>Passionate about military history, memorabilia, and contributing to Eastern European conflict wiki pages through design, sourcing, and revisions</li>
+    </ul>
+    <p>Davud’s commitment goes beyond academics — he’s dedicated to fostering a community of learners who grow intellectually and socially.</p>
+  </section>
+
+  <section>
+    <h2>Contact &amp; Booking</h2>
+    <div class="contact">
+      <p><strong>Phone:</strong> 0450842983<br />
+      <strong>Email:</strong> IntegralEducation@gmail.com</p>
+      <p>To book a session or organise tutoring, get in touch via phone or email.</p>
+    </div>
   </section>
 
   <div class="footer">
